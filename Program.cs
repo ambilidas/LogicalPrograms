@@ -8,8 +8,7 @@ namespace LogicalPrograms
         {
            Console.WriteLine("Welcome to Logical Programs");
            FibonacciSeries obj1 = new FibonacciSeries();
-            obj1.fib();
-
+           obj1.fib();
         }
     }
 
