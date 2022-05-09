@@ -12,8 +12,9 @@ namespace LogicalPrograms
            PrimeNumber obj2=new PrimeNumber();
             //obj2.primeNumberSeries();
             PerfectNumber obj3 = new PerfectNumber();
-            obj3.checkPerfectNumber();
-
+            //obj3.checkPerfectNumber();
+            ReverseNumber obj4 = new ReverseNumber();
+            obj4.reverseNum();
         }
     }
 
