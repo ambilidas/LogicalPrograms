@@ -14,7 +14,9 @@ namespace LogicalPrograms
             PerfectNumber obj3 = new PerfectNumber();
             //obj3.checkPerfectNumber();
             ReverseNumber obj4 = new ReverseNumber();
-            obj4.reverseNum();
+            //obj4.reverseNum();
+            StopWatch obj5 = new StopWatch();
+            obj5.stopWatchSimulation();
         }
     }
 
