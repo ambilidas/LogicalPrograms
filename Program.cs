@@ -10,7 +10,10 @@ namespace LogicalPrograms
            FibonacciSeries obj1 = new FibonacciSeries();
            //obj1.fib();
            PrimeNumber obj2=new PrimeNumber();
-            obj2.primeNumberSeries();
+            //obj2.primeNumberSeries();
+            PerfectNumber obj3 = new PerfectNumber();
+            obj3.checkPerfectNumber();
+
         }
     }
 
