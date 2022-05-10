@@ -11,23 +11,29 @@ namespace LogicalPrograms
     {
 		public void stopWatchSimulation()
 		{
-			// Create new stopwatch
-			Stopwatch stopwatch = new Stopwatch();
-
-			// Begin timing
-			stopwatch.Start();
-
-			// Do something
-			for (int i = 0; i < 1000; i++)
+            Console.WriteLine("To start the stopwatch enter S/s: ");
+			char start=Convert.ToChar(Console.ReadLine());
+			Stopwatch stopwatch = Stopwatch.StartNew();
+			if(start=='S' || start == 's')
+            {
+				// Begin timing
+				stopwatch.Start();
+                Console.WriteLine("To stop the stopwatch enter Q/q: ");
+				char end = Convert.ToChar(Console.ReadLine());
+				if (end == 'Q' || end == 'q')
+				{
+					// Stop timing
+					stopwatch.Stop();
+					// Write result
+					Console.WriteLine("Time elapsed: {0}", stopwatch.Elapsed);
+				}   
+			}
+			else
 			{
-				Thread.Sleep(1);
+				Console.WriteLine("Invalid input");
+
 			}
 
-			// Stop timing
-			stopwatch.Stop();
-
-			// Write result
-			Console.WriteLine("Time elapsed: {0}",stopwatch.Elapsed);
 		}
 	}
 }
