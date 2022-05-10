@@ -16,7 +16,9 @@ namespace LogicalPrograms
             ReverseNumber obj4 = new ReverseNumber();
             //obj4.reverseNum();
             StopWatch obj5 = new StopWatch();
-            obj5.stopWatchSimulation();
+            //obj5.stopWatchSimulation();
+            CouponNumbers obj6 = new CouponNumbers();
+            obj6.couponNumber();
         }
     }
 
