@@ -16,7 +16,7 @@ namespace LogicalPrograms
             while (num > 0)
             {
                 int random=new Random().Next(1,100);
-                coupons += random;
+                coupons += (char)random;
                 num--;
             }
             Console.WriteLine("Your coupon number is " + coupons);

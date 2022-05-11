@@ -13,7 +13,7 @@ namespace LogicalPrograms
             int sum = 0;
             Console.WriteLine("Enter the number");
             int number=Convert.ToInt32(Console.ReadLine());
-            for (int i = 1; i < number; i++)
+            for (int i = 1; i < number/2; i++)
             {
                 if(number%i == 0)
                 {

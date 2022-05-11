@@ -11,7 +11,7 @@ namespace LogicalPrograms
         public void reverseNum()
         {
             int number, reverse = 0, remainder;
-            Console.WriteLine("Enter the number");
+            Console.WriteLine("Enter the number : ");
             number=Convert.ToInt32(Console.ReadLine());
             while (number != 0)
             {
